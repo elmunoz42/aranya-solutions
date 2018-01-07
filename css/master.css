@@ -1,15 +1,17 @@
 hr {
   background-color: #a67c00;
 }
-img {
-  width: 85%;
-  margin-bottom: 20px;
-}
 iframe {
   margin-bottom: 20px;
 }
+body {
+  background: linear-gradient(250deg,rgb(255, 250, 205),rgb(255, 245, 214),rgb(255,215,0));
+}
 .navbar {
   margin-left: 35px;
+}
+.content {
+
 }
 #intro-video {
   margin-left: 17%;
@@ -46,22 +48,38 @@ iframe {
     background-color: #ffcf40;
 }
 #logo-banner {
+  display: block;
   border: 3px solid #a67c00;
   padding: 10px;
   max-width: 746px;
   max-height: 257px;
-  margin-left: 37%;
+  margin: 10px auto;
 
   }
-  #banner {
-    display: inline-block;
-    margin: auto;
-  }
-
-.jumbotron {
-  background-color: white;
+#banner {
+  margin: 10px auto;
+}
+.row {
+  padding: 10px 10px;
+}
+.images {
+  width: 85%;
+  margin-bottom: 20px;
 }
 
+.jumbotron {
+  /* padding: 10px 100px; */
+  background-color: transparent !important;
+}
+
+.center-message {
+  text-align: center;
+  padding: 10px 15%;
+}
+
+.subheader {
+  color: #a67c00;
+}
 .title {
   text-align: center;
   color: white;
