@@ -1,10 +1,25 @@
-
+hr {
+  background-color: #a67c00;
+}
+img {
+  width: 85%;
+  margin-bottom: 20px;
+}
+iframe {
+  margin-bottom: 20px;
+}
+.navbar {
+  margin-left: 35px;
+}
+#intro-video {
+  margin-left: 17%;
+}
 #navlist {
   display: inline-block;
+  width: 100%;
 }
 
 #navlist ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -12,7 +27,10 @@
 }
 
 #navlist li {
+    width: 12.5%;
+    margin-right: 7%;
     float: left;
+    list-style-type: none;
 }
 
 #navlist li a {
@@ -25,9 +43,26 @@
 
 /* Change the link color to #111 (black) on hover */
 #navlist li a:hover {
-    background-color: #111;
+    background-color: #ffcf40;
+}
+#logo-banner {
+  border: 3px solid #a67c00;
+  padding: 10px;
+  max-width: 746px;
+  max-height: 257px;
+  margin-left: 37%;
+
+  }
+  #banner {
+    display: inline-block;
+    margin: auto;
+  }
+
+.jumbotron {
+  background-color: white;
 }
 
 .title {
   text-align: center;
+  color: white;
 }
