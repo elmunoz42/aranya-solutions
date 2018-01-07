@@ -2,10 +2,12 @@ hr {
   background-color: #a67c00;
 }
 iframe {
-  margin-bottom: 20px;
+  /* display: block; */
+  /* margin: 0 auto; */
+  /* margin-bottom: 20px; */
 }
 body {
-  background: linear-gradient(250deg,rgb(255, 250, 205),rgb(255, 245, 214),rgb(255,215,0));
+  background: linear-gradient(250deg,rgb(255, 250, 205),rgb(255, 245, 150),rgb(255,215,0));
 }
 .navbar {
   margin-left: 35px;
@@ -13,9 +15,7 @@ body {
 .content {
 
 }
-#intro-video {
-  margin-left: 17%;
-}
+
 #navlist {
   display: inline-block;
   width: 100%;
@@ -62,9 +62,15 @@ body {
 .row {
   padding: 10px 10px;
 }
-.images {
-  width: 85%;
-  margin-bottom: 20px;
+.image-left {
+  display: inline;
+  width: 100%;
+  margin: 20px auto;
+}
+.image-right {
+  display: inline;
+  width: 100%;
+  margin: 20px auto;
 }
 
 .jumbotron {
