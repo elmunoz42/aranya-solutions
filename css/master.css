@@ -70,13 +70,18 @@ body {
     background-image: url("../img/women-in-the-field.jpg");
 
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 300px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.parallax1 h1 {
+  text-align: center;
+  padding-top: 120px;
+  color: white;
 }
 .image-left {
   display: inline;
@@ -90,12 +95,19 @@ body {
 }
 
 .jumbotron {
-  padding-top: 0px !important;
+  padding-top: 15px !important;
+  padding-bottom: 10px !important;
   background-color: transparent !important;
 
 }
 .checklist {
-  font-size: 2em;
+  font-size: 1.5em;
+  padding-top: 15px;
+  border: 2px double #654321;
+  background-color: #ffcf40;
+}
+#checklist1 {
+  margin-top: 25px;
 }
 .checklist ul {
   list-style: none;
@@ -107,7 +119,12 @@ body {
 
 .center-message {
   text-align: center;
-  padding: 0 15%;
+  padding: 0 5%;
+}
+.center-message h3 {
+  padding: 20px 20px;
+  border: 2px double #654321;
+  background-color: #ffcf40;
 }
 
 .subheader {
