@@ -10,12 +10,18 @@ body {
   background: linear-gradient(90deg,rgb(255,215,45),rgb(255, 250, 205), rgb(255,215,45));
 }
 
+.image-border {
+  padding: 0px 0px;
+  border: 3px solid #654321;
+  background-color: #ffcf40;
+}
+
 .nav {
   margin-left: 35px;
   margin-bottom: 0px;
 }
 .content p {
-  color: rgb(139,69,15);
+  color: #654321;
 }
 
 #navlist {
@@ -86,23 +92,25 @@ body {
 .image-left {
   display: inline;
   width: 100%;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 .image-right {
   display: inline;
   width: 100%;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 
 .jumbotron {
   padding-top: 15px !important;
   padding-bottom: 10px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
   background-color: transparent !important;
 
 }
 .checklist {
   font-size: 1.5em;
-  padding-top: 15px;
+  padding-top: 7px;
   border: 2px double #654321;
   background-color: #ffcf40;
 }
