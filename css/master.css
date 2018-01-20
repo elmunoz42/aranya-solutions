@@ -14,7 +14,7 @@ body {
   font-family: Cinzel, sans-serif !important;
   color: rgb(255,140,0);
   text-shadow: 1px 1px #a67c00 ;
-  max-width: 760px;
+  max-width: 960px;
   margin: auto;
 }
 
@@ -81,12 +81,18 @@ body {
 .row {
   padding: 10px 10px;
 }
+.video-frame {
+  display: block;
+  margin: 0 auto;
+  width: 614px;
+  border: 7px solid #654321;
+}
 .parallax1 {
     /* The image used */
-    background-image: url("../img/women-in-the-field.jpg");
+    background-image: url("../img/village-panorama.jpg");
 
     /* Set a specific height */
-    min-height: 300px;
+    min-height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -97,7 +103,7 @@ body {
 .parallax1 h1 {
   text-align: center;
   padding-top: 120px;
-  color: white;
+  color: #ffcf40;
 }
 .image-left {
   display: inline;

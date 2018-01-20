@@ -2,16 +2,16 @@
 
 #### Web Developer: Carlos Munoz Kampff
 
-#### Static page application that will be converted to Wordpress when we get our non-profit hosting.
+#### Website for Aranya Solutions non-profit. This is a static page application that will be converted to Wordpress when we get our non-profit hosting and domain.
 
 ###To Do List:
 
 |Status|Spec|Page|                
 |------|----|----|
-|TODO| Move Small Enterprises section to Digham Village project page | Index - What we do|
+|partial| Move Small Enterprises section to Digham Village project page | Index - What we do|
 |TODO| Create more dividers | Index |
 |Pending| Make text box borders thicker | Index|
-|TODO| Change Paralax image to landscape and remove text | Index |
+|Pending| Change Paralax image to landscape and remove text | Index |
 |TODO| Expand white section of background | All |
 |Pending| Find a better font | All|
 |TODO| Change text box icon to leaf | Index|
@@ -23,5 +23,5 @@
 |TODO| Add projects | What we do |
 |TODO| Add dropdown for Photo Gallery, Videos, Articles to Media | Navbar |
 |Pending| Remove home link, add contact link, and make logo clickable | Navbar |
-|TODO| Edit Leadership training section | Index|
+|Pending| Edit Leadership training section | Index|
 |TODO| Make navbar clickable | Navbar|
