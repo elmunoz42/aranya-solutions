@@ -22,6 +22,14 @@ body {
   margin-left: 35px;
   margin-bottom: 0px;
 }
+.container hr {
+  border: 0;
+ height: 2px;
+ background-image: -webkit-linear-gradient(left, #ffcf40, #654321, #ffcf40 );
+ background-image: -moz-linear-gradient(left, #ffcf40, #654321, #ffcf40 );
+ background-image: -ms-linear-gradient(left, #ffcf40, #654321, #ffcf40 );
+ background-image: -o-linear-gradient(left, #ffcf40, #654321, #ffcf40 );
+}
 .content {
   font-family: Roboto Condensed, sans-serif !important;
 }
@@ -84,8 +92,8 @@ body {
 .video-frame {
   display: block;
   margin: 0 auto;
-  width: 614px;
-  border: 7px solid #654321;
+  width: 606px;
+  border: 3px solid #654321;
 }
 .parallax1 {
     /* The image used */
@@ -127,7 +135,7 @@ body {
 .checklist {
   font-size: 1.5em;
   padding-top: 7px;
-  border: 7px solid #654321;
+  border: 3px solid #654321;
   background-color: #ffcf40;
 }
 #checklist1 {
@@ -135,16 +143,24 @@ body {
 }
 .checklist ul {
   list-style: none;
+  /* list-style-position: inside;
+  list-style-image: url("../img/leaf-icon.png"); */
 }
 
-.checklist ul li:before {
+/* .checklist ul li:before {
   content: '✓';
+} */
+.checklist li:before {
+  content: "\f06c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
 }
-
 .center-message {
   text-align: center;
   padding: 20px 5%;
-  margin: 60px auto !important;
+  margin: 30px auto !important;
 }
 .center-message h3 {
   padding: 20px 20px;
