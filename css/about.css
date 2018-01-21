@@ -1,6 +1,12 @@
 .about-page img {
   max-width: 100%;
 }
-.about-page h3 {
+.about-page h2 {
   margin-left: 15px;
+}
+.popup {
+  padding: 15px;
+  margin: 25px 50px;
+  background-color: rgba(254,254,254, 0.9);
+
 }

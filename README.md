@@ -20,10 +20,10 @@
 |Done| Add Donate button | navbar |
 |Done| Remove home link, add contact link, and make logo clickable | Navbar |
 |Done| Edit Leadership training section | Index|
+|Done| Add Staff, story, partners, and theory of change | About us |
 |partial| Move Small Enterprises section to Digham Village project page | Index - What we do|
 |TODO| Make text box clickable link to project page | Index |
 |TODO| Justify Village Support | Index|
-|TODO| Add staff, story, partners, and theory of change | About us |
 |TODO| Add projects | What we do |
 |TODO| Add dropdown for Photo Gallery, Videos, Articles to Media | Navbar |
 |TODO| Make navbar clickable | Navbar|
