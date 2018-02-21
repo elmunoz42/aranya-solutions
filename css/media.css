@@ -1,0 +1,13 @@
+.photo-gallery img {
+  max-width: 600px;
+
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+}
+
+.subheader-media {
+  text-align: center;
+}
