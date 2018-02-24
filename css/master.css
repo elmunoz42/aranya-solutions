@@ -110,7 +110,7 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
     background-image: url("../img/village-panorama.jpg");
 
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 400px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
