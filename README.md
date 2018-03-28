@@ -31,15 +31,15 @@
 ###New To Do List 3/28/2018:
 
 1. Move these things from "what we do" page to "about us" page
- a. Mission
- b. What Aranya Means (keep that pic)
- c. Our story
+ DONE a. Mission
+ DONE b. What Aranya Means (keep that pic)
+ DONE c. Our story
 
 
 2. Change/ Add these things to "what we do" page:
-  a. Move the Criteria for Partners down after the projects (Use UNDP sust.goals pic)
-  b. Put service array at the top. Add in Mindful Movements & Innovation Labs to it
-  c. Ethos/ Service above Self - take out bullet points. Keep at the bottom of the page.
+  DONE a. Move the Criteria for Partners down after the projects (Use UNDP sust.goals pic)
+  DONE b. Put service array at the top. Add in Mindful Movements & Innovation Labs to it
+  DONE c. Ethos/ Service above Self - take out bullet points. Keep at the bottom of the page.
 
 3. The "What We do" page should look like this:
 1st - Service array (add mindful movements & Innovation Labs)
@@ -150,5 +150,3 @@ conditions and functionality.
       c. Photo Gallery
 Description:
 Our media and communications platform helps create the conditions for sustainability by nurturing an ecosystem of vibrant lasting relationships between our stakeholders, supporters and network of pollinators and leaders. The goal is for this living web of meaningful relationships to support the rise of a more connected, compassionate, and culturally diverse world.
-
- 
