@@ -43,11 +43,12 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
   font-family: Roboto Condensed, sans-serif !important;
 }
 .content p {
-  color: #654321;
+  color: #2b1d0e;
 }
 .image-border {
   padding: 0px 0px;
-  border: 3px solid #654321;
+  /*border: 3px solid #654321;*/
+  border: 3px solid #2b1d0e;
   background-color: #ffcf40;
 }
 
@@ -72,7 +73,7 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
 
 #navlist li a {
     display: block;
-    color: #654321;
+    color: #2b1d0e;
     font-weight: 550;
     text-align: center;
     padding: 14px 16px;
@@ -85,7 +86,7 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
 
 #logo-banner {
   display: block;
-  border: 3px solid #654321;
+  border: 3px solid #2b1d0e;
   padding: 10px;
   max-width: 746px;
   max-height: 257px;
@@ -102,14 +103,14 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
   display: block;
   margin: 0 auto;
   width: 606px;
-  border: 3px solid #654321;
+  border: 3px solid #2b1d0e;
 }
 .parallax1 {
     /* The image used */
     background-image: url("../img/village-panorama.jpg");
 
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 400px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -144,7 +145,7 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
 .checklist {
   font-size: 1.5em;
   padding-top: 7px;
-  border: 3px solid #654321;
+  border: 3px solid #2b1d0e;
   background-color: #ffcf40;
 }
 #checklist1 {
@@ -176,6 +177,6 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
 }
 .center-message h3 {
   padding: 20px 20px;
-  border: 7px solid #654321;
+  border: 7px solid #2b1d0e;
   background-color: #ffcf40;
 }
