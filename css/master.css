@@ -105,6 +105,12 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
   width: 606px;
   border: 3px solid #2b1d0e;
 }
+.mailchimp-archive {
+  display: block;
+  margin: 0 auto;
+  width: 806px;
+  border: 3px solid #2b1d0e;
+}
 .parallax1 {
     /* The image used */
     background-image: url("../img/village-panorama.jpg");
