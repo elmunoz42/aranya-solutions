@@ -186,3 +186,53 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
   border: 7px solid #2b1d0e;
   background-color: #ffcf40;
 }
+
+/* Social Media Icons */
+
+.social-media-bar {
+   left: 0;
+   position: fixed;
+   top: 10px;
+}
+.fa {
+  padding: 5px;
+  font-size: 40px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-patreon {
+  background: white;
+  color: white;
+}
