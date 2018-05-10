@@ -26,7 +26,12 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
   max-width: 960px;
   margin: auto;
 }
+@media only screen and (max-width: 600px) {
 
+  .subheader {
+    font-size: 16px;
+  }
+}
 #compassion-quote {
   font-weight: 600;
   font-size: 36px;
@@ -36,14 +41,20 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
   #compassion-quote {
     font-size: 26px;
   }
-  .subheader {
-    font-size: 16px;
-  }
+
 }
 
 .nav {
   margin-left: 35px;
   margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .nav {
+    margin-left: 0px;
+  }
+
 }
 .container hr {
   border: 0;
