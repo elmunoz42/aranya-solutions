@@ -27,6 +27,20 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
   margin: auto;
 }
 
+#compassion-quote {
+  font-weight: 600;
+  font-size: 36px;
+}
+@media only screen and (max-width: 600px) {
+
+  #compassion-quote {
+    font-size: 26px;
+  }
+  .subheader {
+    font-size: 16px;
+  }
+}
+
 .nav {
   margin-left: 35px;
   margin-bottom: 0px;
@@ -98,12 +112,12 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
   margin: 10px auto;
   }
 
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     #logo-banner {
       max-width: 400px;
       max-height: 137px;
       }
-  }
+}
 #banner {
   margin: 10px auto;
 }
@@ -140,6 +154,14 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+@media only screen and (max-width: 600px) {
+  .parallax1 {
+    display: none;
+  }
+  #paralax-annotation {
+    display: none;
+  }
 }
 .parallax1 h1 {
   text-align: center;
