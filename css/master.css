@@ -147,6 +147,14 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
   width: 506px;
   border: 3px solid #2b1d0e;
 }
+@media only screen and (max-width: 600px) {
+  iframe {
+    width: 300px;
+  }
+  .video-frame2 {
+    width: 306px;
+  }
+}
 .mailchimp-archive {
   display: block;
   margin: 0 auto;
