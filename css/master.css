@@ -190,9 +190,12 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
 /* Social Media Icons */
 
 .social-media-bar {
-   left: 0;
+   left: -20px;
    position: fixed;
    top: 10px;
+}
+.social-media-bar li {
+  list-style: none;
 }
 .fa {
   padding: 5px;
