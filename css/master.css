@@ -79,6 +79,11 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
     padding: 14px 16px;
     text-decoration: none;
 }
+@media only screen and (max-width: 600px) {
+  #navlist li a {
+    font-size: .8em;
+  }
+}
 
 #navlist li a:hover {
     background-color: #ffcf40;
@@ -91,7 +96,13 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
   max-width: 746px;
   max-height: 257px;
   margin: 10px auto;
+  }
 
+  @media only screen and (max-width: 600px) {
+    #logo-banner {
+      max-width: 400px;
+      max-height: 137px;
+      }
   }
 #banner {
   margin: 10px auto;
@@ -103,6 +114,12 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
   display: block;
   margin: 0 auto;
   width: 606px;
+  border: 3px solid #2b1d0e;
+}
+.video-frame2 {
+  display: block;
+  margin: 0 auto;
+  width: 506px;
   border: 3px solid #2b1d0e;
 }
 .mailchimp-archive {
@@ -193,6 +210,11 @@ background-image:-ms-linear-gradient(left, rgb(255,215,45) 0%, rgb(255, 250, 205
    left: -20px;
    position: fixed;
    top: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .social-media-bar {
+    visibility: hidden;
+  }
 }
 .social-media-bar li {
   list-style: none;
