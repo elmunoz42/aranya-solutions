@@ -23,10 +23,10 @@
 |Done| Add Staff, story, partners, and theory of change | About us |
 |partial| Move Small Enterprises section to Digham Village project page | Index - What we do|
 |Done| Make text box clickable link to project page | Index |
-|TODO| Justify Village Support | Index|
-|TODO| Add projects | What we do |
-|TODO| Add dropdown for Photo Gallery, Videos, Articles to Media | Navbar |
-|TODO| Make navbar clickable | Navbar|
+|Done| Justify Village Support | Index|
+|Done| Add projects | What we do |
+|Done| Add dropdown for Photo Gallery, Videos, Articles to Media | Navbar |
+|Done| Make navbar clickable | Navbar|
 
 ###New To Do List 3/28/2018:
 
